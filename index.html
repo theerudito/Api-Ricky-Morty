@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <title>Api Dragon Ball</title>
+</head>
+<body>
+                                  <h3 class="text-center  pt-5">Buscador de Personaje</h3>
+             <div class="container p-4 h-50">
+              <div class="row w-10">
+                 <div class="col-md-6 offset-md-3 h-50"  id="reset">
+                    <div class="card">
+                        <div class="card-body ">
+                         <div class="pt-4">
+      
+          <form id="myForm">
+            <input type="text" name="nombre" id="nombre" placeholder="Buscar personaje Ej: Rick Sanchez" class="form-control" >
+            <button type="submit" class=" btn btn-primary mt-4 container-fluid d-flex justify-content-center" name="buscar" id="buscar">Buscar</button>
+          </form>
+                <div class="pokemon-container container-fluid d-flex justify-content-center" name="pokemon-container" id="pokemon-container">
+                              </div>
+                              
+
+                              <!--
+                              <div data-poke-img-container class="img-container container-fluid d-flex justify-content-center" id="imagen">
+                                <img data-poke-img class="poke-img" src="/silueta-pokemon.png" id="imagen"/>
+                            </div> 
+
+                              -->
+
+                                  </div>
+                          <button onclick="clearBox ('pokemon-container')"  class="btn btn-primary mt-4 container-fluid  justify-content-center " name="resete" id="resete" >RESET</button>
+                      </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+  
+  <script src="/index.js"></script>
+
+</body>
+</html>
